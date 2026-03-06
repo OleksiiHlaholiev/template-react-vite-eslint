@@ -24,8 +24,9 @@ const newJsFeaturesFunc = () => {
 	]
 
 	const result = Object.groupBy(inventory, ({ type }) => type)
+	const result2 = Map.groupBy(inventory, ({ type }) => type)
 
-	console.log('newJsFeaturesFunc', { inventory, result })
+	console.log('newJsFeaturesFunc', { inventory, result, result2 })
 }
 
 function App() {
