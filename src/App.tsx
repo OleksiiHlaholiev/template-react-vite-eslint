@@ -31,11 +31,9 @@ const newJsFeaturesFunc = () => {
 
 function App() {
 	const [count, setCount] = useState<number>(0)
-
 	const test = { x: 50, y: 'test', z: true }
 
 	myFunc(test)
-
 	newJsFeaturesFunc()
 
 	return (
